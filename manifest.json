@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Put It On The Stack",
+    "version": "1.0.0",
+    "action":{
+        "default_popup": "Source.html",
+        "default_icon": "Icon.png"
+    },
+
+    "icons":{
+        "16": "Icon-16.png",
+        "32":"Icon-32.png",
+        "48":"Icon-48.png",
+        "128":"Icon-128.png"
+    },
+
+    "background":{
+        "service_worker": "ServiceWorker.js"
+    },
+
+    "content_scripts":[
+        {
+            "js": ["ServiceWorker.js"],
+            "matches": [
+                "https://developer.chrome.com/docs/extensions/*",
+                "https://developer.chrome.com/docs/webstore/*"                
+            ]
+        }
+    ]
+
+}
