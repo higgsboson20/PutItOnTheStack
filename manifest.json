@@ -4,6 +4,7 @@
     "version": "1.0.0",
     "action":{
         "default_popup": "Source.html",
+        "default_title": "Put It On The Stack!",
         "default_icon": "Icon.png"
     },
 
