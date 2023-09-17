@@ -1,5 +1,5 @@
 {
-    "name": "PutItOnTheStack",
+    "name": "chrome-extension-client",
     "version": "1.0.0",
     "author": "Sam Asbell",
     "dependencies": {
